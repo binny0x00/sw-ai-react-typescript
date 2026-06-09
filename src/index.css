@@ -1,7 +1,7 @@
 @import './styles/tokens.css';
 
 :root {
-  font-family: var(--font-family-base);
+  font-family: var(--font-family-base), serif;
   color: var(--text-primary);
   background: var(--background);
   font-synthesis: none;
@@ -22,7 +22,7 @@ body {
 
 @font-face {
   font-family: 'MaruBuri';
-  src: url('/fonts/MaruBuri-ExtraLight.ttf') format('truetype');
+  src: url('../public/fonts/MaruBuri-ExtraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -30,7 +30,7 @@ body {
 
 @font-face {
   font-family: 'MaruBuri';
-  src: url('/fonts/MaruBuri-Light.ttf') format('truetype');
+  src: url('../public/fonts/MaruBuri-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -38,7 +38,7 @@ body {
 
 @font-face {
   font-family: 'MaruBuri';
-  src: url('/fonts/MaruBuri-Regular.ttf') format('truetype');
+  src: url('../public/fonts/MaruBuri-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -46,7 +46,7 @@ body {
 
 @font-face {
   font-family: 'MaruBuri';
-  src: url('/fonts/MaruBuri-SemiBold.ttf') format('truetype');
+  src: url('../public/fonts/MaruBuri-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -54,7 +54,7 @@ body {
 
 @font-face {
   font-family: 'MaruBuri';
-  src: url('/fonts/MaruBuri-Bold.ttf') format('truetype');
+  src: url('../public/fonts/MaruBuri-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
