@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './InquiriesPage.css'
 
 const boardTabs = ['전체', '문의', '답변완료', '공지']
@@ -54,9 +55,9 @@ export function InquiriesPage() {
         <div>
           <h2 id="inquiries-title">문의 게시판</h2>
         </div>
-        <button className="inquiries-primary-button" type="button">
+        <Link className="inquiries-primary-button" to="/inquiries/new">
           글쓰기
-        </button>
+        </Link>
       </header>
 
       <nav className="inquiries-tabs" aria-label="문의 글 분류">
@@ -119,9 +120,9 @@ export function InquiriesPage() {
             </span>
             <div className="inquiry-title-cell">
               <div className="inquiry-title-line">
-                <button className="inquiry-title" type="button">
+                <Link className="inquiry-title" to={`/inquiries/${inquiry.id}`}>
                   {inquiry.title}
-                </button>
+                </Link>
                 <span
                   className={
                     inquiry.status === '답변완료'
