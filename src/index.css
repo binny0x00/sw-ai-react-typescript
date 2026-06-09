@@ -20,6 +20,13 @@ body {
   margin: 0;
 }
 
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
 @font-face {
   font-family: 'MaruBuri';
   src: url('../public/fonts/MaruBuri-ExtraLight.ttf') format('truetype');
